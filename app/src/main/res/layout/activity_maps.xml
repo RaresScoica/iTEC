@@ -27,4 +27,17 @@
         android:background="@drawable/ic_graphic"
         android:layout_marginTop="10dp"
         android:layout_marginStart="160dp" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/issueCardView"
+        layout="@layout/cardview_issue"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="382dp" />
+    </HorizontalScrollView>
 </FrameLayout>
